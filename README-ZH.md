@@ -1,5 +1,11 @@
 [![](https://jitpack.io/v/U-WHY/Android-NtpTime.svg)](https://jitpack.io/#U-WHY/Android-NtpTime)
 
+# 简介
+
+接入即用，方便快捷地在安卓上获取当前的真实时间，避免因用户系统时间与实际时间不同而带来的错误。
+
+应用启动时自动校准时间，不需要主动初始化。
+
 # 如何接入NTP Time
 
 **第一步.** 添加jitpack仓库
@@ -23,8 +29,6 @@
     }
 ```
 
-
-
 # 如何获取时间
 
 对于Kotlin
@@ -47,9 +51,7 @@ NtpTime.INSTANCE.getTimeMillis();
 NtpTime.INSTANCE.getSafeTimeMillis();
 ```
 
-
-
-
+<br>
 
 ## NTP服务器设置
 

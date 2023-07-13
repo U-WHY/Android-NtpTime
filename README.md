@@ -1,5 +1,11 @@
 [![](https://jitpack.io/v/U-WHY/Android-NtpTime.svg)](https://jitpack.io/#U-WHY/Android-NtpTime)
 
+# What is Android-NtpTime for
+
+Get the current network time on Android easily and conveniently, avoiding errors caused by the user's system time being different from the actual time.
+
+Automatically calibrate time upon application startup, no manual initialization required.
+
 # Install
 
 **Step 1.** Add the JitPack repository to your build file
@@ -23,8 +29,6 @@ Add it in your root build.gradle at the end of repositories:
     }
 ```
 
-
-
 # Usage
 
 For Kotlin
@@ -47,9 +51,7 @@ NtpTime.INSTANCE.getTimeMillis();
 NtpTime.INSTANCE.getSafeTimeMillis();
 ```
 
-
-
-
+<br>
 
 ## NTP server configuration
 
