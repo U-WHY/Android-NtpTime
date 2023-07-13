@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    在资源文件中定义字符串数组-->
+    <array name="ntp_hosts_array">
+        <item>ntp.host1.com</item>
+        <item>ntp.host2.com</item>
+    </array>
+</resources>
